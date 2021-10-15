@@ -1,0 +1,376 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "history",
+      "assignedTeacher": "Victoria Cobbett",
+      "studentList": [
+        {
+          "id": 1,
+          "avatar": "avatar4.svg",
+          "firstName": "Johnny",
+          "lastName": "Bravo",
+          "gender": "Male",
+          "address": "3212 James Avenue",
+          "hobbies": "sports, eating, ski"
+        },
+        {
+          "id": 5,
+          "avatar": "avatar.svg",
+          "firstName": "John",
+          "lastName": "Doe",
+          "gender": "Male",
+          "address": "Craiova",
+          "hobbies": "sport"
+        },
+        {
+          "id": 2,
+          "avatar": "avatar3.svg",
+          "firstName": "Martin",
+          "lastName": "Lawrence",
+          "gender": "Male",
+          "address": "",
+          "hobbies": ""
+        },
+        {
+          "id": 17,
+          "avatar": "avatar.svg",
+          "firstName": "Gica",
+          "lastName": "Hagi",
+          "gender": "Male",
+          "address": "Constanta",
+          "hobbies": "football"
+        },
+        {
+          "id": 10,
+          "avatar": "avatar.svg",
+          "firstName": "Mihalache",
+          "lastName": "Cristian",
+          "gender": "Male",
+          "address": "Craiova",
+          "hobbies": "tv"
+        },
+        {
+          "id": 18,
+          "avatar": "avatar5.svg",
+          "firstName": "Petrescu",
+          "lastName": "Gabriel",
+          "gender": "Male",
+          "address": "Timisoara",
+          "hobbies": "football, drinking"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "english",
+      "assignedTeacher": "Andrea Barrett",
+      "studentList": [
+        {
+          "id": 1,
+          "avatar": "avatar4.svg",
+          "firstName": "Johnny",
+          "lastName": "Bravo",
+          "gender": "Male",
+          "address": "3212 James Avenue",
+          "hobbies": "sports, eating, ski"
+        },
+        {
+          "id": 2,
+          "avatar": "avatar3.svg",
+          "firstName": "Martin",
+          "lastName": "Lawrence",
+          "gender": "Male",
+          "address": "",
+          "hobbies": ""
+        },
+        {
+          "id": 3,
+          "avatar": "avatar2.svg",
+          "firstName": "Freddy",
+          "lastName": "Kelly",
+          "gender": "Male",
+          "address": "3497 James Avenue",
+          "hobbies": ""
+        },
+        {
+          "id": 11,
+          "avatar": "avatar.svg",
+          "firstName": "Mitran",
+          "lastName": "Ionel",
+          "gender": "Male",
+          "address": "Craiova",
+          "hobbies": "sport"
+        },
+        {
+          "id": 13,
+          "avatar": "avatar.svg",
+          "firstName": "Caragea",
+          "lastName": "Maria",
+          "gender": "Female",
+          "address": "Craiova",
+          "hobbies": "dancing, cooking"
+        },
+        {
+          "id": 4,
+          "avatar": "avatar5.svg",
+          "firstName": "Kevin",
+          "lastName": "James",
+          "gender": "Male",
+          "address": "Bucharest",
+          "hobbies": "eating, ski, sports, tv"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "french",
+      "assignedTeacher": "Josselin Bourseiller",
+      "studentList": [
+        {
+          "id": 2,
+          "avatar": "avatar3.svg",
+          "firstName": "Martin",
+          "lastName": "Lawrence",
+          "gender": "Male",
+          "address": "",
+          "hobbies": ""
+        },
+        {
+          "id": 3,
+          "avatar": "avatar2.svg",
+          "firstName": "Freddy",
+          "lastName": "Kelly",
+          "gender": "Male",
+          "address": "3497 James Avenue",
+          "hobbies": ""
+        },
+        {
+          "id": 4,
+          "avatar": "avatar5.svg",
+          "firstName": "Kevin",
+          "lastName": "James",
+          "gender": "Male",
+          "address": "Bucharest",
+          "hobbies": "eating, ski, sports, tv"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "math",
+      "assignedTeacher": "Popescu Ion",
+      "studentList": [
+        {
+          "id": 2,
+          "avatar": "avatar3.svg",
+          "firstName": "Martin",
+          "lastName": "Lawrence",
+          "gender": "Male",
+          "address": "",
+          "hobbies": ""
+        },
+        {
+          "id": 7,
+          "avatar": "avatar.svg",
+          "firstName": "Popescu",
+          "lastName": "Ion",
+          "gender": "Male",
+          "address": "Bucuresti",
+          "hobbies": "sport, music"
+        },
+        {
+          "id": 1,
+          "avatar": "avatar4.svg",
+          "firstName": "Johnny",
+          "lastName": "Bravo",
+          "gender": "Male",
+          "address": "3212 James Avenue",
+          "hobbies": "sports, eating, ski"
+        },
+        {
+          "id": 6,
+          "avatar": "avatar.svg",
+          "firstName": "Ionut",
+          "lastName": "Catalin",
+          "gender": "Male",
+          "address": "Craiova strada Fratii Buzesti",
+          "hobbies": "sport"
+        },
+        {
+          "id": 4,
+          "avatar": "avatar5.svg",
+          "firstName": "Kevin",
+          "lastName": "James",
+          "gender": "Male",
+          "address": "Bucharest",
+          "hobbies": "eating, ski, sports, tv"
+        }
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "avatar": "avatar4.svg",
+      "firstName": "Johnny",
+      "lastName": "Bravo",
+      "gender": "Male",
+      "address": "3212 James Avenue",
+      "hobbies": "sports, eating, ski"
+    },
+    {
+      "id": 2,
+      "avatar": "avatar3.svg",
+      "firstName": "Martin",
+      "lastName": "Lawrence",
+      "gender": "Male",
+      "address": "",
+      "hobbies": ""
+    },
+    {
+      "id": 3,
+      "avatar": "avatar2.svg",
+      "firstName": "Freddy",
+      "lastName": "Kelly",
+      "gender": "Male",
+      "address": "3497 James Avenue",
+      "hobbies": ""
+    },
+    {
+      "id": 4,
+      "avatar": "avatar5.svg",
+      "firstName": "Kevin",
+      "lastName": "James",
+      "gender": "Male",
+      "address": "Bucharest",
+      "hobbies": "eating, ski, sports, tv"
+    },
+    {
+      "id": 5,
+      "avatar": "avatar.svg",
+      "firstName": "John",
+      "lastName": "Doe",
+      "gender": "Male",
+      "address": "Craiova",
+      "hobbies": "sport"
+    },
+    {
+      "id": 6,
+      "avatar": "avatar.svg",
+      "firstName": "Ionut",
+      "lastName": "Catalin",
+      "gender": "Male",
+      "address": "Craiova strada Fratii Buzesti",
+      "hobbies": "sport"
+    },
+    {
+      "id": 7,
+      "avatar": "avatar.svg",
+      "firstName": "Popescu",
+      "lastName": "Ion",
+      "gender": "Male",
+      "address": "Bucuresti",
+      "hobbies": "sport, music"
+    },
+    {
+      "id": 8,
+      "avatar": "avatar.svg",
+      "firstName": "Petrescu",
+      "lastName": "Ioana",
+      "gender": "Female",
+      "address": "Timisoara",
+      "hobbies": "dancing"
+    },
+    {
+      "id": 9,
+      "avatar": "avatar.svg",
+      "firstName": "Barbu",
+      "lastName": "Paul",
+      "gender": "Male",
+      "address": "Constanta",
+      "hobbies": "movies"
+    },
+    {
+      "id": 10,
+      "avatar": "avatar.svg",
+      "firstName": "Mihalache",
+      "lastName": "Cristian",
+      "gender": "Male",
+      "address": "Craiova",
+      "hobbies": "tv"
+    },
+    {
+      "id": 11,
+      "avatar": "avatar.svg",
+      "firstName": "Mitran",
+      "lastName": "Ionel",
+      "gender": "Male",
+      "address": "Craiova",
+      "hobbies": "sport"
+    },
+    {
+      "id": 12,
+      "avatar": "avatar.svg",
+      "firstName": "Marinache",
+      "lastName": "Cosmin",
+      "gender": "Male",
+      "address": "Craiova",
+      "hobbies": "eating"
+    },
+    {
+      "id": 13,
+      "avatar": "avatar.svg",
+      "firstName": "Caragea",
+      "lastName": "Maria",
+      "gender": "Female",
+      "address": "Craiova",
+      "hobbies": "dancing, cooking"
+    },
+    {
+      "id": 14,
+      "avatar": "avatar.svg",
+      "firstName": "Popescu",
+      "lastName": "George",
+      "gender": "Male",
+      "address": "Bucuresti",
+      "hobbies": "football"
+    },
+    {
+      "id": 15,
+      "avatar": "avatar.svg",
+      "firstName": "Popescu",
+      "lastName": "Mirel",
+      "gender": "Male",
+      "address": "Craiova strada Fratii Buzesti",
+      "hobbies": "sport"
+    },
+    {
+      "id": 16,
+      "avatar": "avatar.svg",
+      "firstName": "Lionel",
+      "lastName": "Messi",
+      "gender": "Male",
+      "address": "Barcelona",
+      "hobbies": "football"
+    },
+    {
+      "id": 17,
+      "avatar": "avatar.svg",
+      "firstName": "Gica",
+      "lastName": "Hagi",
+      "gender": "Male",
+      "address": "Constanta",
+      "hobbies": "football"
+    },
+    {
+      "id": 18,
+      "avatar": "avatar5.svg",
+      "firstName": "Petrescu",
+      "lastName": "Gabriel",
+      "gender": "Male",
+      "address": "Timisoara",
+      "hobbies": "football, drinking"
+    }
+  ]
+}

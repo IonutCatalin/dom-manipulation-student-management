@@ -1,0 +1,193 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+    <title>Course Management</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="students-actions">
+        <div class="student-action">
+            <button class="add-student">Add student</button>
+            <div class="add-student-list">
+                <div class="add-student-list-header"><span>Available</span><i class="fas fa-times"></i>
+                </div>
+            </div>
+        </div>
+        <div class="student-action">
+            <button class="create-student">Create student</button>
+        </div>
+        <div class="student-action">
+            <button class="create-course">Create course</button>
+        </div>
+    </div>
+    <div class="students-container">
+        <div class="students-header">
+            <div class="header-details">
+                <div>Enrolled catalogue</div>
+                <div>Teacher - <span></span></div>
+            </div>
+            <div class="header-courses">
+            </div>
+        </div>
+        <table class="table students-table">
+            <thead>
+            <tr class="student-row-header">
+                <th></th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Hobbies</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <div class="students-no-results">No enrolled students yet.</div>
+    </div>
+    <div class="hidden-form-container students-form-container">
+        <div class="academic-info-form">
+            <div class="new-academic-info">
+                <div class="new-academic-info-image">
+                    <img src="avatars/avatar.svg">
+                    <button>Generate</button>
+                </div>
+                <div class="new-academic-info-details">
+                    <form id="student-details-form">
+                        <div class="new-academic-info-detail">
+                            <label for="firstName">First name</label>
+                            <input type="text" id="firstName" name="firstName">
+                        </div>
+
+                        <div class="new-academic-info-detail">
+                            <label for="lastName">Last name</label>
+                            <input type="text" id="lastName" name="lastName">
+                        </div>
+
+                        <div class="new-academic-info-detail">
+                            <label>Gender</label>
+                            <div>
+                                <input type="radio" name="gender" id="femaleRadio" value="Female">
+                                <label for="femaleRadio">
+                                    Female
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" name="gender" id="maleRadio" value="Male">
+                                <label for="maleRadio">
+                                    Male
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="new-academic-info-detail">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" name="address">
+                        </div>
+
+                        <div class="new-academic-info-detail">
+                            <label>Hobbies</label>
+                            <div class="new-academic-info-options">
+                                <div class="new-academic-info-option">
+                                    <input type="checkbox" name="hobbies" value="sports">
+                                    <label>sports</label>
+                                </div>
+
+                                <div class="new-academic-info-option">
+                                    <input type="checkbox" name="hobbies" value="football">
+                                    <label>football</label>
+                                </div>
+
+                                <div class="new-academic-info-option">
+                                    <input type="checkbox" name="hobbies" value="eating">
+                                    <label>eating</label>
+                                </div>
+
+                                <div class="new-academic-info-option">
+                                    <input type="checkbox" name="hobbies" value="ski">
+                                    <label>ski</label>
+                                </div>
+
+                                <div class="new-academic-info-option">
+                                    <input type="checkbox" name="hobbies" value="dancing">
+                                    <label>dancing</label>
+                                </div>
+
+                                <div class="new-academic-info-option">
+                                    <input type="checkbox" name="hobbies" value="cooking">
+                                    <label>cooking</label>
+                                </div>
+
+                                <div class="new-academic-info-option">
+                                    <input type="checkbox" name="hobbies" value="tv">
+                                    <label>tv</label>
+                                </div>
+
+                                <div class="new-academic-info-option">
+                                    <input type="checkbox" name="hobbies" value="movies">
+                                    <label>movies</label>
+                                </div>
+
+                                <div class="new-academic-info-option">
+                                    <input type="checkbox" name="hobbies" value="music">
+                                    <label>music</label>
+                                </div>
+
+                                <div class="new-academic-info-option">
+                                    <input type="checkbox" name="hobbies" value="drinking">
+                                    <label>drinking</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="new-academic-info-actions">
+                            <button type="button" class="cancel-student-button">Cancel</button>
+                            <button type="submit" class="create-student-button">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hidden-form-container course-form-container">
+        <div class="academic-info-form">
+            <div class="new-academic-info">
+                <div class="new-academic-info-image">
+                    <img src="avatars/course.svg">
+                </div>
+                <div class="new-academic-info-details">
+                    <form id="course-details-form">
+                        <div class="new-academic-info-detail">
+                            <label for="courseName">Name</label>
+                            <input type="text" id="courseName" name="courseNameInput">
+                        </div>
+
+                        <div class="new-academic-info-detail">
+                            <label for="courseTeacher">Teacher</label>
+                            <input type="text" id="courseTeacher" name="courseTeacherInput">
+                        </div>
+
+                        <div class="new-academic-info-actions">
+                            <button type="button" class="cancel-student-button cancel-course">Cancel</button>
+                            <button type="submit" class="create-student-button">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+<script type="module" src="app.js"></script>
+<script type="module" src="events.js"></script>
+<script src="https://kit.fontawesome.com/1d4c6e3973.js" crossorigin="anonymous"></script>
+</body>
+</html>
