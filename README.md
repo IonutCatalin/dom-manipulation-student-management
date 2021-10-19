@@ -1,5 +1,6 @@
 # Dom-manipulation-student-management - developed in Vanilla Javascript.
 
+Dom-manipulation-student-management is an application which manage the students to different courses. The students can be added from the dropdown to the selected course. If any of them is already assigned it appears unselectable in the adding dropdown. It can be added more courses and students from their specific adding form.
 
 ## Available Scripts
 
