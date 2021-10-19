@@ -58,6 +58,15 @@
           "gender": "Male",
           "address": "Timisoara",
           "hobbies": "football, drinking"
+        },
+        {
+          "id": 3,
+          "avatar": "avatar2.svg",
+          "firstName": "Freddy",
+          "lastName": "Kelly",
+          "gender": "Male",
+          "address": "3497 James Avenue",
+          "hobbies": ""
         }
       ]
     },
